@@ -44,14 +44,18 @@ function userChoice(choice) {
 setModule(choice)
 }
 
-useEffect(()=> {
 
+useEffect(()=> {
+if(module === "advice") {
 createAdvice()
+} else if(module === "activity") {
 createActivity()
+}
+else if(module === "photo") {
 createImage()
+}
 
 },[module]) 
-
 
 useEffect(() => {
   const checkId = favoriteAdvices.some(obj => obj.id === advice.id)
@@ -125,9 +129,10 @@ const activityGiven = (
 )
 
 const imageGiven = (
-  <div className="container-return">
+  <div className="container-return-image">
       <h1 className="title">Here a picture!!</h1>
       <ImageDisplay src={image.src} />
+      <button className="btn-image-dog" onClick={createImage}>Another One!</button>
   </div>
 )
 

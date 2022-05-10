@@ -15,7 +15,6 @@ console.log(countriesData)
 */
     return (
         <>
-        <NavBar />
         <h1>Andre</h1>
         </>
     )
