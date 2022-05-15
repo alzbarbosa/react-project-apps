@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect} from "react";
+import { createContext, useState} from "react";
 import useFetch from "../hooks/useFetch";
 
 let url = "https://restcountries.com/v2/all"

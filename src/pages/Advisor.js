@@ -6,9 +6,6 @@ import ImageDisplay from "../components/ImageDisplay";
 
 import {SiProbot} from "react-icons/si"
 
-let category = "neutral"
-/* module = advice, activity, picture */
-
 function Advisor() {
 const [module, setModule] = useState("")  
 const [advice, setAdvice] = useState({})
@@ -163,13 +160,3 @@ const favoriteClass = module === "photo"? "top-add" : ""
 
 export default Advisor;
 
-/*React.useEffect(() => {
-const slip_id = 11
-
-  fetch(`https://api.adviceslip.com/advice/${slip_id}`)
-  .then(res => res.json())
-  .then(data => setAdvice( () => {
-    return {text: data.slip.advice, id: data.slip.id, isFavorite: false}
-  }))
-}, [])
-*/
