@@ -39,7 +39,3 @@ export default function Trip(props) {
     )
 }
 
-
-/*
-<img className="trip-main-img" src="./elephants.jpg" alt="elephants" />
-*/

@@ -46,7 +46,7 @@ const sideElements = data.map(trip => {
 })
 
   return (
-    <div>
+    <div className='trip-container-body'>
       <div className='container-main'>
         <div className="container-sidebar">
           <h3 className='sidebar-title'>TOP TRIPS 2022</h3>

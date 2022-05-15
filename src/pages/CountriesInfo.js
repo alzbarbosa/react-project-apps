@@ -1,21 +1,16 @@
-import React, {useState, useEffect} from "react";
-import NavBar from "../components/Navbar";
+import React from "react";
+import Countries from "../components/Countries";
+import Searchbar from "../components/Searchbar";
+import Header from "../components/Header"
 
 export default function CountriesInfo() {
 
-const [countriesData, setcountriesData] = useState([])
-
-/*useEffect(() => {
-    fetch("https://restcountries.com/v3.1/all")
-        .then(res => res.json())
-        .then(data => setcountriesData(data))
-},[])
-
-console.log(countriesData)
-*/
     return (
-        <>
-        <h1>Andre</h1>
-        </>
+        <main className="countriesInfo-main-container">
+          <Header />
+          <Searchbar />
+          <Countries />
+        </main >
     )
 }
+
