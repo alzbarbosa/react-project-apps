@@ -2,7 +2,7 @@ import React from 'react'
 import Project from '../components/Project'
 import Footer from '../components/Footer'
 
-import imgHero from '../images/apps.jpg'
+import imgHero from '../images/desk-computer.jpg'
 import imgWorld from '../images/globe.jpg'
 import imgTrip from '../images/trip.jpg'
 import imgRobot from '../images/robot.jpg'
@@ -15,8 +15,8 @@ const Homepage = () => {
             <img className="img-hero" src={imgHero} />
             </section>
             <section className="title-hero">
-                <h1 className="title-call">React Games to all type of devices</h1>
-                <p className="subtitle-call">If you want to have a modern interaction with your customers, use React to create your pages and apps</p>
+                <h1 className="title-call">Apps designed for all type of devices</h1>
+                <p className="subtitle-call">Modern interaction with your customers is the key to success</p>
             </section>
             <div className="container-supreme">
              <Project name="React Robot Advisor Page"

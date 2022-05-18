@@ -787,7 +787,7 @@ footer {
 /* =================
    Projects
 ================= */
-.container-games {
+.container-apps {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -943,7 +943,7 @@ footer {
     font-size: 1.25rem;
   }
 
-  .container-games {
+  .container-apps {
     width: 350px;
   }
     
@@ -1013,5 +1013,10 @@ footer {
   .menu-items li {
     margin-right: 20px;
   }
+}
+
+.portfolio-item {
+  position: relative;
+  border-radius: 15px;
 }
 

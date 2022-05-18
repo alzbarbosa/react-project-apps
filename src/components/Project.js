@@ -6,13 +6,13 @@ export default function Project(props) {
 
     return (
         <Link to={props.link}>
-        <div className="container-games">
-        <h2 className="project-title">{props.name}</h2>
-        <img className="img-games-react" src={props.image} alt={props.name}/>
+        <div className="container-apps">
+            <h2 className="project-title">{props.name}</h2>
+            <img className="img-games-react" src={props.image} alt={props.name}/>
         <div className="project-info">
-        <p className="project-details">{props.text}</p>
-        <p className="project-link">Play the Game<BsArrowRightCircle/></p>
-        </div>
+            <p className="project-details">{props.text}</p>
+            <p className="project-link">Visit the page<BsArrowRightCircle/></p>
+            </div>
         </div>
         </Link>
         
